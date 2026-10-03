@@ -1,0 +1,24 @@
+{
+  "_comment": "Thresholds for SqlHAMonitor. Edit values, then click Reload thresholds in the toolbar. Delete a line to use the built-in default.",
+  "Thresholds": {
+    "AgLogSendQueueWarnMB": 100,
+    "AgLogSendQueueCritMB": 1024,
+    "AgRedoQueueWarnMB": 100,
+    "AgRedoQueueCritMB": 1024,
+    "AgLagWarnSeconds": 60,
+    "AgLagCritSeconds": 300,
+    "LsDefaultBackupThresholdMin": 60,
+    "LsDefaultRestoreThresholdMin": 45,
+    "LsErrorLookbackHours": 2,
+    "ReplPendingCmdsWarn": 10000,
+    "ReplPendingCmdsCrit": 100000,
+    "ReplLatencyWarnSeconds": 60,
+    "ReplLatencyCritSeconds": 300,
+    "ReplAgentStaleMinutes": 30,
+    "ReplSubscriberStaleMin": 60,
+    "ReplErrorLookbackHours": 2,
+    "ReplLogUsedWarnPct": 70,
+    "ReplLogUsedCritPct": 90,
+    "QueryTimeoutSeconds": 30
+  }
+}
